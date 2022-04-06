@@ -1,0 +1,6 @@
+&i2c0 {
+	sensor: bme680@77 {
+		compatible = "bosch,bme680";
+		reg = <0x77>;
+	};
+};
